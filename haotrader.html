@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>York Disease</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa:700" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div id="loading">
+        <div id="spinner"></div>
+    </div>
+    <div id="particles-js"></div>
+    <div id="box">
+        <div class="box1 onlywide animated bounceOutLeft" style="animation-delay:1.7s;"></div>
+        <div class="box2 onlywide animated bounceOutLeft" style="animation-delay:1.8s;"></div>
+        <div class="box2 onlywide animated bounceOutLeft" style="animation-delay:1.9s;"></div>
+        <div class="box2 animated bounceOutRight" style="animation-delay:1.9s;"></div>
+        <div class="box2 onlywide animated bounceOutRight" style="animation-delay:1.8s;"></div>
+        <div class="box2 onlywide animated bounceOutRight" style="animation-delay:1.7s;"></div>
+    </div>
+    <a id="about" onclick="showabout()" class="animated fadeIn" style="animation-delay:2.2s;">about</a>
+    <a id="work" onclick="showwork()" class="animated fadeIn" style="animation-delay:2.2s;">work</a>
+    <a id="contact" onclick="showcontact()" class="animated fadeIn" style="animation-delay:2.2s;">contact</a>
+    <div id="middle" class="animated slideInDown" style="animation-delay:2.0s;">
+        <h1>The Commission to Cure and Eradicate York Disease</h1>
+        <h2>CCEYD</h2>
+        <div id="menu">
+            <a onclick="showabout()">about</a>
+            <a onclick="showwork()">work</a>
+            <a onclick="showcontact()">contact</a>
+        </div>
+        <table>
+                <tr>
+                    <td class="animated zoomIn" style="animation-delay:2.2s;"><a class="social"><i class="fab fa-facebook"></i></a></td>
+                    <td class="animated zoomIn" style="animation-delay:2.4s;"><a class="social"><i class="fab fa-twitter"></i></a></td>
+                    <td class="animated zoomIn" style="animation-delay:2.6s;"><a class="social"><i class="fab fa-instagram"></i></a></td>
+                    <td class="animated zoomIn" style="animation-delay:2.8s;"><a class="social"><i class="fab fa-dribbble"></i></a></td>
+                </tr>
+        </table>
+    </div>
+    <div id="work_container" class="container">
+        <div onclick="closework()"><i class="fas fa-angle-right"></i></div>
+        <h1>info.</h1>
+        <section>
+            <h2>Effects of York Disease</h2>
+            <p>
+                Some effects of York Disease include the melting of brain cells, which in turn leads to plummeting intelligence levels. This can lead to denial, short-term memory loss, and is known to the State of California to be harmful towards human life.
+            </p>
+            <h2>York Disease Prevention
+            <p>
+                
+Some things you can do to prevent York Disease include:<br>
+
+    Checking your trash cans to chase any wild Yorks out. If the Yorks have nowhere to live they will eventually get a brain and stop being Yorks and their York Disease will be cured.
+    <br>Arm yourselves so that the York doesn’t attack you too. If the York can’t attack you, the York Disease gene will eventually die out and be eradicated.
+                </p>
+   
+            <div id="used">
+                <div><i class="fas fa-circle"></i>&nbsp;York</div>
+                <div><i class="fas fa-circle"></i>&nbsp;Is</div>
+                <div><i class="fas fa-circle"></i>&nbsp;Trash</div>
+            </div>
+            
+        </section>
+    </div>
+    <div id="about_container" class="container">
+            <div onclick="closeabout()"><i class="fas fa-angle-left"></i></div>
+            <h1>about.</h1>
+            <section>
+                <h2>About Us</h2>
+                <p>
+                   Our mission as the Commission to Cure and Eradicate York Disease is to research and find a cost and time effective cure to the deadly york disease. In the near future, we will like to find a effective way to eradicate york disease and bring all known cases of york disease around the world to down to zero. 
+                </p>
+                <p>
+                   We cannot do this without your support.
+                </p>
+            </section>
+            <section>
+                <h2>York Disease Background Information</h2>
+                <p>
+                   York Disease is a mental illness caused by enrolling into Queens High School of the Sciences at York College. York Disease does crippling damage to the brain’s ability to comprehend even basic thoughts and tasks.
+                </p>
+            </section>
+        </div>
+          <div id="contact_container" class="container">
+            <div onclick="closecontact()"><i class="fas fa-angle-down"></i></div>
+            <h1>contact.</h1>
+            <section>
+                <h2>Contact Us</h2>
+                <p>
+                    <form>
+                        <input type="text" placeholder="Name" required>
+                        <input type="email" placeholder="Email" required><br>
+                        <textarea placeholder="Message" required rows="5"></textarea><br>
+                        <button class="btn_one">send</button>
+                    </form> 
+                </p>
+            </section>
+        </div>
+        <div id="footer">
+            Published by the Commission to Cure and Eradicate York Disease <br> 
+        </div>
+    <script src="index.js" type="text/javascript"></script>
+    <script src="particles.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
